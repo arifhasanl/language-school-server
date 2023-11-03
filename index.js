@@ -211,3 +211,10 @@ app.listen(port, () => {
   console.log(`summer camp in running on port ${port}`);
 })
 
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote set-url origin https://github.com/arifhasanl/language-school-server.git
+git push -u origin main
